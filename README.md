@@ -6,7 +6,7 @@ A responsive and feature-rich task management application built with **React**, 
 
 ## Live Demo
 
-👉 View Live App : (https://krishmca99.github.io/task_manager_app)
+👉 View Live App : https://task-manager-app-tma-new.vercel.app/
 
 
 
