@@ -7,7 +7,7 @@ import NotFound from "./pages/NotFound";
 export default function App() {
   return (
     <div className="bg-blue-200 w-full h-screen m-0 p-0">
-      <BrowserRouter basename="/task_manager_app">
+      <BrowserRouter>
         <NavBar />
         <Routes>
           <Route path="/" element={<Navigate to="/tasks" />} />
