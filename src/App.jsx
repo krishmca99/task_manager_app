@@ -10,7 +10,7 @@ export default function App() {
       <BrowserRouter>
         <NavBar />
         <Routes>
-          <Route path="/" element={<Navigate to="/tasks" />} />
+          <Route path="/" element={<TaskList />} />
           <Route path="/tasks" element={<TaskList />} />
           <Route path="/tasks/new" element={<TaskForm />} />
           <Route path="/tasks/:id" element={<TaskForm />} />
