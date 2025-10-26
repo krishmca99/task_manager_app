@@ -42,7 +42,7 @@ A responsive and feature-rich task management application built with **React**, 
 ## Installation
 
 ```bash
-git clone https://github.com/your-username/task_manager_app.git
+git clone https://github.com/krishmca99/task_manager_app.git
 cd task_manager_app
 npm install
 npm run dev
