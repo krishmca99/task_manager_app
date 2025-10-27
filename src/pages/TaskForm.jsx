@@ -56,7 +56,7 @@ export default function TaskForm() {
   };
 
   return (
-    <div className="py-8 bg-gray-100 max-w-7xl mx-auto rounded-b-sm md:w-[95%] px-2">
+    <div className="py-8 bg-gray-100 w-[95%] max-w-7xl mx-auto rounded-b-sm md:w-[95%] px-2">
       <div className="max-w-3xl mx-auto bg-white p-6 rounded shadow">
         <h3 className="text-center text-2xl font-bold">
           {isEdit ? "Edit Task" : "Create New Task"}
