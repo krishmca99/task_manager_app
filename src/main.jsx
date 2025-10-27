@@ -4,11 +4,14 @@ import './index.css'
 import App from './App.jsx'
 import {Provider} from 'react-redux'
 import store from './redux/store.js'
+import { Analytics } from "@vercel/analytics/react";
+
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Provider store={store}>
       <App />
+      {import.meta.env.PROD && <Analytics />}
     </Provider>
   </StrictMode>
 );
