@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { createTask, updateTask } from "../redux/tasksThunks";
+import NotFound from '../pages/NotFound'
 
 export default function TaskForm() {
   const { id } = useParams();
@@ -29,6 +30,9 @@ export default function TaskForm() {
     }
   }, [isEdit, existingTask]);
 
+  if (id && !existingTask) {
+    return <NotFound />;
+  }
   const validateInputs = () => {
     const error = {};
     if (!title.trim()) error.title = "Title is required";
