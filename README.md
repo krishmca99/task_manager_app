@@ -14,13 +14,13 @@ A responsive and feature-rich task management application built with **React**, 
 
 ## Features
 
-- 📝 **Create & Edit Tasks** — Unified form with dynamic mode switching
-- ✅ **Status Filtering** — View All, Pending, or Completed tasks
-- 🗑️ **Delete Confirmation** — SweetAlert2 prompts before removal
-- 🔄 **Drag & Drop Reordering** — Intuitive task rearrangement
-- 📅 **Due Date Tracking** — Visual deadline management
-- 💾 **Persistent Storage** — Tasks saved locally via browser
-- 📱 **Responsive Design** — Optimized for mobile and desktop
+- 📝 **Create & Edit Tasks** - Unified form with dynamic mode switching
+- ✅ **Status Filtering** - View All, Pending, or Completed tasks
+- 🗑️ **Delete Confirmation** - SweetAlert2 prompts before removal
+- 🔄 **Drag & Drop Reordering** - Intuitive task rearrangement
+- 📅 **Due Date Tracking** - Visual deadline management
+- 💾 **Persistent Storage** - Tasks saved locally via browser
+- 📱 **Responsive Design** - Optimized for mobile and desktop
 
 ---
 
@@ -43,6 +43,3 @@ A responsive and feature-rich task management application built with **React**, 
 
 ```bash
 git clone https://github.com/krishmca99/task_manager_app.git
-cd task_manager_app
-npm install
-npm run dev
